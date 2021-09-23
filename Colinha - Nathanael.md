@@ -1,8 +1,48 @@
-# Colinha - Nathanael
+# Colinha - POO
 
 
 
 ### Revisão: orientação a objeto
+
+**Método construtor**
+
+É uma forma de definir atributos dentro da instância do objeto e passar parâmetros para a superclasse (classe pai). 
+
+- Sem tipo
+- Sem retorno
+
+
+
+**Sobrecarga** (método construtor)
+
+Possibilita colocar parâmetros opcionais desde que usando argumentoss com tipos e quantidades de argumentos diferentes.
+
+``` java
+  public calculadora(String marca,String modelo){
+           this.marca=marca;
+           this.modelo=modelo;
+  }
+
+  public calculadora(String marca,String modelo,String uso){
+           this.marca=marca;
+           this.modelo=modelo;
+           this.uso=uso;
+  }
+```
+
+
+
+**Sobreposição @Override**
+
+Usado nas implementações de objetos. Serve para descartar o conteúdo definido na interface (que obriga o uso do que foi colocado em *implements* - mais de um possível com vírgula).
+
+
+
+**super()**
+
+- Usado para passar pametros para a classe pai.
+- <u>Precisa ser</u> o primeiro método
+- Pode conter múltiplos parâmetros
 
 
 
